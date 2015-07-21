@@ -604,6 +604,13 @@ export default class SelectDocumentation extends Component {
                  <div style={ { width: 110,
                                 'float': 'left',
                                 marginLeft: 16 } }>
+
+          <input type="text" />
+          <select>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Vienna">Vienna <img src="https://facebook.github.io/react/img/logo.svg" width="36" height="36" /></option>
+              <option value="Rome" style={{ backgroundImage: 'url(https://facebook.github.io/react/img/logo.svg)' }}>Rome</option>
+          </select>
           <Select defaultValue="tokyo"
                   menuStyle={ { height: 160,
                                        overflow: 'scroll' } }>
